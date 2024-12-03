@@ -1,3 +1,8 @@
+"""
+参考：
+https://qiita.com/miyaken3381/items/1bc7530a211a507a19dc
+"""
+
 import flet as ft
 import requests
 import json
@@ -6,8 +11,8 @@ from typing import List, Dict, Any
 
 def main(page: ft.Page):
     #基本的なウィンドウ設定
-    page.window.width = 1400
-    page.window.height = 1000
+    page.window.width = 1920
+    page.window.height = 1080
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 0
     page.bgcolor = "#1a1a2e"
