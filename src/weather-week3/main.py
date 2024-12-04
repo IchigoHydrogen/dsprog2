@@ -1,3 +1,8 @@
+"""
+参考：
+https://qiita.com/miyaken3381/items/1bc7530a211a507a19dc
+"""
+
 import flet as ft
 import requests
 import json
@@ -197,7 +202,7 @@ def main(page: ft.Page):
     page.bgcolor = "#1a1a2e"
     page.scroll = "always"
     
-    #モダンなカラーパレット定義
+    #カラーパレット定義
     COLORS = {
         "primary": "#0f3460",
         "secondary": "#16213e",
@@ -265,7 +270,7 @@ def main(page: ft.Page):
         padding=40,
     )
 
-    #天気アイコンマッピング
+    #天気を絵文字で表現
     WEATHER_ICONS = {
         "晴れ": "☀️",
         "くもり": "☁️",
